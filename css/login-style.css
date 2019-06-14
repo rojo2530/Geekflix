@@ -71,4 +71,18 @@ h1 {
     background:#3570dc;
 }
 
+@media only screen and (min-width : 280px) {
+  .container{ width: 90% }
+}
 
+@media only screen and (min-width : 480px) {
+    .container{ width: 60% }
+}
+
+@media only screen and (min-width : 768px) {
+    .container{ width: 40% }
+} 
+
+@media only screen and (min-width : 992px) {
+    .container{ width: 30% }
+  } 
