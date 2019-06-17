@@ -14,11 +14,12 @@ header {
 body {
     background: url(../img/background.jpg);
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     height: 100%;
+    width: 100%;
     min-height: 100vh;
-
-    
+    min-width: 100vw;
 }
 
 .logo {
