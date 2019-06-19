@@ -66,7 +66,7 @@ h1 {
 }
 
 .login:hover {
-    background:#1a1a1a;
+    background:darkgrey;
 }
 
 @media only screen and (min-width : 280px) {
