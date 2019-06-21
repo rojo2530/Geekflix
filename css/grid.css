@@ -1,0 +1,156 @@
+main {
+   width: 98%;
+   margin:auto;
+   padding-top:50px;
+}
+
+.title-section {
+    color:#e5e5e5;
+    font-size:2.5vw;
+    margin-bottom: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-shrink: 1;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.item {
+    width: 25vw;
+    height: 15vw;
+    background-size: 100% 100%;
+    margin: 5px; 
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+  }
+.item:hover {
+    width: 40vw;
+    height: 22vw;
+    transition: 0.5s;
+    opacity: 1;
+    transition-delay: 0.3s;
+  }
+
+.container .body-item {
+  /* /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  /* align-items: center; */
+  height: 100%;
+  opacity: 0;
+  visibility: hidden; 
+}
+.container .body-item:hover {
+  width: 40vw;
+  height: 22vw;
+  opacity: 1;
+  transition: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.container .body-item-2 {
+  font-size: 2vw;
+  margin-bottom: 0.5vw;
+} 
+
+.container .body-item-4 {
+  padding-right: 3vw;
+} 
+/* .container .body-item-5 {
+  width: 40vw;
+  text-align: center;
+} */
+
+/* .container .play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .play i {
+  margin-top: 3vw;
+  justify-content: center;
+  width: 6vw;
+  height: 6vw;
+  border-radius: 25vw;
+  background: rgba(0, 0, 0, 0.5);
+  border: 0.1em solid white;
+  padding: 1.4vw;
+  font-size: 2.5vw;
+} */
+/* .container * {
+  background-color: transparent;
+}
+.details-icon {
+  font-size: 2.5vw;
+} */
+
+.item:hover .body-item {
+  visibility: visible;
+}
+.item:hover .body-item-1 {
+  width: 40vw;
+}
+
+.match {
+  color: #45af5e;
+  font-size: bold;
+}
+.description {
+  font-weight: 300;
+  font-size: 1.4vw;
+}
+.properties {
+  font-size: 1.35vw;
+}
+.properties * {
+  margin: 1px;
+}
+.properties .age-limit {
+  border: 0.1em solid rgba(255, 255, 255, 0.4);
+  font-weight: 200;
+  font-size: 1.2vw;
+  padding: 0 3px 0 3px;
+}
+.item-1 {
+  background-image: url("../img/predator-movie1.jpg");
+}
+.item-1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url("../img/predator-movie1-hover.jpg");
+  background-size: 100% 100%;
+}
+.item-2 {
+  background-image: url("../img/captain-america-movie2.jpg");
+}
+.item-2:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url("../img/captain-america-movie2-hover.jpg");
+  background-size: 100% 100%;
+}
+.item-3 {
+  background-image: url(../img/harry-potter-movie3.jpg);
+}
+.item-3:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(../img/harry-potter-movie3-hover.jpg);
+  background-size: 100% 100%;
+}
+.item-4 {
+  background-image: url(https://i.ytimg.com/vi/i1eJMig5Ik4/maxresdefault.jpg);
+}
+.item-4:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(https://i.kinja-img.com/gawker-media/image/upload/s--GKg2jfhA--/c_scale,fl_progressive,q_80,w_800/vcta1kcxdr5y5xyulxel.png);
+  background-size: 100% 100%;
+}
+.item-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(http://www.sickchirpse.com/wp-content/uploads/2017/03/Breaking-Bad.jpg);
+}
+.item-5:hover {
+  background-image: url(http://www.hdwallpapers.in/walls/marvel_deadpool_movie-wide.jpg);
+  background-size: 100% 100%;
+}

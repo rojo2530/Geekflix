@@ -4,14 +4,15 @@ header {
 }
 
 body {
-    background: url(../img/background.jpg);
+    background: black;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 100%;
     width: 100%;
+    max-width: 100%;
     min-height: 100vh;
-    min-width: 100vw;
+    /* min-width: 100vw; */
 }
 
 .container {
@@ -69,12 +70,16 @@ h1 {
     background:darkgrey;
 }
 
+/* Movil */
 @media only screen and (min-width : 280px) {
   .container{ width: 90% }
+  
 }
 
+/* Tablet */
 @media only screen and (min-width : 480px) {
     .container{ width: 60% }
+    
 }
 
 @media only screen and (min-width : 768px) {
@@ -83,4 +88,9 @@ h1 {
 
 @media only screen and (min-width : 992px) {
     .container{ width: 30% }
+    body {
+        background:url(../img/background.jpg);
+        background-size: cover;
+
+    }
   } 
