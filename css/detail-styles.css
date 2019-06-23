@@ -1,0 +1,21 @@
+body {
+    background-color:#141414;
+}
+
+.separator {
+    height: 80px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+} 
+
+.trailer {
+    border: solid 1px red;
+    margin: auto;
+    padding-top: 50px;
+    width:80%;
+    height: 55vh;
+}
+
