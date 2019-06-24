@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/detail-styles.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
         <nav class="navbar">
@@ -15,10 +18,11 @@
                 <img src="img/logo-home.png" alt="logo">
             </div>
             <ul class="navbar-list">
+                <li class="navbar-item"><a href="#inicio">Inicio</a></li>
                 <li class="navbar-item"><a href="#que-hago">Películas</a></li>
                 <li class="navbar-item"><a href="#quien-soy">Series</a></li>
                 <li class="navbar-item"><a href="#batallas">Favoritos</a></li>
-                <li class="navbar-item"><a href="#inicio">Inicio</a></li>
+             
             </ul>
             <div class="search">
                 <input type="text" class="search-textbox" placeholder="Buscar..">
@@ -34,15 +38,160 @@
         <main>
             <section class="trailer">
                 <div class="trailer-container">
+                    <video class="trailer-video" controls src="img/AVENGERS INFINITY WAR Final Trailer Marvel mp4.mp4">
+                    Tu navegador no soporta el codec del vídeo.
+                    </video>
+                </div>
+                <div class="movie-title">
+                    <h2>Los Vengadores: Infinity War</h2>
+                </div>
+                <div class="flex-container-description">
+                    <div class="sinopsys">
+                            El poderoso Thanos, decidido a hacerse con las Gemas del Infinito para controlar el universo, 
+                            ataca la nave asgardiana en la que huyen los supervivientes del antiguo reino de Odín. 
+                            Su intención es hacerse con la segunda de las gemas, ahora en manos de Loki.
+                    </div>
+                    <div class="detail-movie">
+                        <ul class="ul-list">
+                            <li><span>Duración:</span>  100min</li>
+                            <li><span>Reparto:</span>Robert Downey Jr, Chris Hemsworth, Mark Ruffalo</li>
+                            <li><span>Director:</span> Anthony Russo</li>
+                            <li><span>Año:</span> 2002</li>
+                        </ul>
+                        
 
+                    </div>
                 </div>
             </section>
-            <section class="description">
-                <div class="flex-container-movie">
+            <section class="movies">
+                    <h2 class="title-section">Películas relacionadas</h2>
+                    <div class="flex-container">
+                        <div class="flex-card flex-card-1">
+                            <div class="body-item">
+                            <!-- <div class="body-item-1">
+                                <div class="play">
+                                    <i class="icon-play"></i>
+                                </div>
+                            </div> -->
+                            <div class="title body-item-2">Depredador</div>
+                            <div class="properties body-item-3">
+                                <span class="match">% 98 Match</span>
+                                <span class="year">1987</span>
+                                <span class="age-limit">13+</span>
+                                <span class="duration">107min</span>
+                            </div>
+                            <p class="description body-item-4">Un grupo de mercenarios es contratado por la CIA para rescatar a unos pilotos 
+                                que han sido apresados por la guerrilla en la selva centroamericana.</p>
+                            <div class="body-item-5">
+                                <!-- <i class="details-icon icon-chevron-down"></i> -->
+                            </div>
+                           
+                        </div>
+                    </div>
+                
+                    <div class="flex-card flex-card-2">
+                      <div class="body-item">
+                        <!-- <div class="body-item-1">
+                          <div class="play">
+                            <i class="icon-play"></i>
+                          </div>
+                        </div> -->
+                        <div class="title body-item-2">Capitan América: Civil War</div>
+                        <div class="properties body-item-3">
+                          <span class="match">% 98 Match</span>
+                          <span class="year">2010</span>
+                          <span class="age-limit">13+</span>
+                          <span class="time">146m</span>
+                        </div>
+                        <p class="description body-item-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias libero..</p>
+                        <div class="body-item-5">
+                          <!-- <i class="details-icon icon-chevron-down"></i> -->
+                        </div>
+                        
+                      </div>
+                    </div>
+                  
+                    <div class="flex-card flex-card-3">
+                        <div class="body-item">
+                        <!-- <div class="body-item-1">
+                          <div class="play">
+                            <i class="icon-play"></i>
+                          </div>
+                        </div> -->
+                            <div class="title body-item-2">Harry Potter y las Reliquias de la Muerte - Parte I</div>
+                            <div class="properties body-item-3">
+                                <span class="match">% 98 Match</span>
+                                <span class="year">2012</span>
+                                <span class="age-limit">13+</span>
+                                <span class="time">2h 13m</span>
+                            </div>
+                            <p class="description body-item-4">Primera parte de la adaptación al cine del último libro de la saga Harry Potter. 
+                                Es una continuación de la historia recogida en "El misterio del príncipe". </p>
+                            <div class="body-item-5">
+                                <!-- <i class="details-icon icon-chevron-down"></i> -->
+                            </div>
+                        
+                        </div>
+                    </div>
+                    
+                    <div class="flex-card flex-card-4">
+                      <div class="body-item">
+                        <!-- <div class="body-item-1">
+                          <div class="play">
+                            <i class="icon-play"></i>
+                          </div>
+                        </div> -->
+                        <div class="title body-item-2">Bojark Horseman</div>
+                        <div class="properties body-item-3">
+                          <span class="match">% 95 Match</span>
+                          <span class="year">2013</span>
+                          <span class="age-limit">18+</span>
+                          <span class="time">1h 13m</span>
+                        </div>
+                        <p class="description body-item-4">A humanoid horse, BoJack Horseman -- lost in a sea of self-loathing and...</p>
+                        <div class="body-item-5">
+                          <!-- <i class="details-icon icon-chevron-down"></i> -->
+                        </div>
+                        
+                      </div>
+                    </div>
+                    </div>
+                </section>   
 
-                </div>
-            </section>
         </main>
+        <footer class="footer">
+                <aside class="links">
+                    <!-- <p>Enlaces</p> -->
+                    <ul class="links-list">
+                        <li>
+                            <a href="https://www.netflix.com/browse/subtitles">
+                                Audio y subtitulos</a>
+                        </li>
+        
+                        <li>
+                            <a href="https://media.netflix.com/">
+                                Zona de Prensa
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://help.netflix.com/legal/privacy">
+                                Privacidad</a>
+                        </li>
+                        <li>
+                                <a href="https://help.netflix.com/legal/privacy">
+                                    &copy; 2019 por Geekflix</a>
+                        </li>
+
+                    </ul>
+                </aside>
+                <aside class="social">
+                    <ul class="social-list">
+                        <li><a href="#"><i class="flaticon-facebook"></i></a></li>
+                        <li><a href="#"><i class="flaticon-twitter"></i></a></li>
+                        <li><a href="#"><i class="flaticon-play"></i></a></li>
+                    </ul>
+                </aside>
+            </footer>
 
     
 </body>

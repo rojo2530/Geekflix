@@ -7,15 +7,61 @@ body {
 }
 
 main {
-    width: 100%;
-    height: 100%;
+   max-width: 90%;
+   margin:0  auto;
+    /* height: 100%; */
 } 
 
 .trailer {
-    border: solid 1px red;
-    margin: auto;
-    padding-top: 50px;
-    width:80%;
-    height: 55vh;
+    /* border: solid 1px red; */
+    /* margin: auto; */
+    /* padding-top: 50px; */
+    /* width:82%; */
+    /* height: 80%; */
 }
 
+.trailer-container {
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.trailer-video {
+    padding-bottom: 20px;
+    width: 90vw ;
+    /* height: 622px; */
+}
+
+.description-movie {
+    width: 82vw;
+    margin: auto;
+    padding-top:50px;
+}
+
+.movie-title > h2 {
+    color:white;
+}
+
+.flex-container-description {
+    display:flex;
+    justify-content: space-between;
+    padding-top:20px;
+    padding-bottom: 40px;
+}
+
+.sinopsys, .detail-movie {
+    flex:1 1 50%;
+    color:white;
+}
+
+.detail-movie {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.ul-list li> span {
+    color:gray;
+}
+
+.ul-list {
+    list-style: none;
+}
