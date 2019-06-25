@@ -43,6 +43,32 @@
     text-decoration: none;
 }
 
+/* Tablets en horizontal y escritorio normal */
+@media only screen and (min-width:768px) and (max-width: 1199px) {
+   
+}
+
+/* Moviles horizontal o tablets en vertical */
+@media only screen and (max-width:768px) {
+
+}
+
+/* Moviles en vertical */
+@media only screen and (max-width:480px) {
+   .footer {
+    flex-direction: column;
+    text-align: center;
+    
+   }
+
+  .links-list {
+    padding-bottom: 1rem;
+  }
+
+  .social-list {
+    justify-content: center;
+  }
+}
 
 
 

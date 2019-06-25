@@ -4,7 +4,7 @@ header {
 }
 
 body {
-    background: black;
+    background:url("../img/background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -12,17 +12,15 @@ body {
     width: 100%;
     max-width: 100%;
     min-height: 100vh;
-    /* min-width: 100vw; */
 }
 
 .container {
     position: relative;
-    width: 100%;
+    width: 30%;
     height: 400px;
     padding: 10px 25px;
-    margin: 3vh auto;
-    /* background: #1a1a1a; */
-    background-color: rgba(0,0,0,.95);
+    margin:  auto;
+    background-color:#0A100D;
     border-radius: 10px;
 }
 
@@ -63,27 +61,79 @@ h1 {
     cursor:pointer;
     margin-top:20px;
     background: rgb(229, 9, 20);
-    transition: background 0.4s ease;
 }
 
 .login:hover {
     background:darkgrey;
 }
 
-/* Movil */
-@media only screen and (min-width : 280px) {
+/* Tablets en horizontal y escritorio normal */
+@media only screen and (min-width:768px) and (max-width: 1199px) {
+    .container {
+        width: 40%;
+    }
+    body {
+        background: black;
+    }
+}
+
+/* Moviles horizontal o tablets en vertical */
+@media only screen and (max-width:768px) {
+    .container {
+        width: 60%;
+    }
+    body {
+        background: black;
+    }
+    header {
+        height: 200px;
+    }
+
+}
+
+/* Moviles en vertical */
+@media only screen and (max-width:480px) {
+    .container {
+        width: 90%;
+    }
+    header {
+        height: 90px;
+    }
+    body {
+        background: black;
+    }
+
+    header > img {
+        display:block;
+        /*Centramos el logo para la versión movil */
+        margin:auto; 
+    }
+}
+
+
+
+/*Movil */
+/* @media only screen and (min-width : 280px) {
   .container{ width: 90% }
+  header {
+    height: 100px;
+}
   
 }
 
-/* Tablet */
 @media only screen and (min-width : 480px) {
-    .container{ width: 60% }
+    .container{ 
+        width: 60% 
+    }
+    
     
 }
 
 @media only screen and (min-width : 768px) {
     .container{ width: 40% }
+    header {
+        height: 200px;
+    }
 } 
 
 @media only screen and (min-width : 992px) {
@@ -93,4 +143,16 @@ h1 {
         background-size: cover;
 
     }
-  } 
+    header {
+        height: 200px;
+    }
+}   */
+/* Ordenador
+
+
+
+/* Tablet */
+
+
+
+

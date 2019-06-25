@@ -19,6 +19,7 @@ main {
   flex-shrink: 1;
   height: 100%;
   overflow: hidden;
+  margin-bottom: 1.5rem;
 }
 
 .flex-card {
@@ -141,10 +142,10 @@ main {
   background-size: 100% 100%;
 }
 .flex-card-4 {
-  background-image: url(https://i.ytimg.com/vi/i1eJMig5Ik4/maxresdefault.jpg);
+  background-image: url(../img/lordOfRings-movie4.jpg);
 }
 .flex-card-4:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(https://i.kinja-img.com/gawker-media/image/upload/s--GKg2jfhA--/c_scale,fl_progressive,q_80,w_800/vcta1kcxdr5y5xyulxel.png);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(../img/lordOfRings-movie4-hover.jpg);
   background-size: 100% 100%;
 }
 .flex-card-5 {
@@ -153,4 +154,23 @@ main {
 .flex-card-5:hover {
   background-image: url(http://www.hdwallpapers.in/walls/marvel_deadpool_movie-wide.jpg);
   background-size: 100% 100%;
+}
+
+/* Moviles en vertical */
+@media only screen and (max-width:480px) {
+  .flex-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex-card {
+    width: 40vw;
+    height: 15vh;
+  }
+
+  .flex-card:hover {
+    width: 48vw;
+    height: 20vh;
+  }
+  
+
 }
