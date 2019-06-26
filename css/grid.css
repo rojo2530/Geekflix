@@ -93,6 +93,15 @@ main {
   font-size: 1.2vw;
   padding: 0 3px 0 3px;
 }
+
+.body-item > a {
+  text-decoration-line:none;
+}
+
+.body-item > a:link, .body-item > a:visited {
+  color:white;
+}
+
 .flex-card-1 {
   background-image: url("../img/predator-movie1.jpg");
 }
@@ -136,13 +145,14 @@ main {
     justify-content: space-evenly;
   }
   .flex-card {
-    width: 46vw;
+    width: 45vw;
     height: 15vh;
     /* margin: 0px; */
   }
 
+  /* Quitamos el efecto ampliación en la versión movil */
   .flex-card:hover {
-    width: 46vw;
+    width: 45vw;
     height: 15vh;;
   }
   
