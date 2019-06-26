@@ -66,6 +66,8 @@ main {
     list-style: none;
 }
 
+
+
 @media only screen and (max-width:480px) {
     .flex-container-description {
         flex-direction: column;

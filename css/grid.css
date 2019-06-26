@@ -24,7 +24,7 @@ main {
 
 .flex-card {
     width: 25vw;
-    height: 15vw;
+    height: 20vh;
     background-size: 100% 100%;
     margin: 5px; 
     border-radius: 1px;
@@ -138,6 +138,84 @@ main {
   background-size: 100% 100%;
 }
 
+
+/* Tablets en horizontal */
+@media only screen and (min-width:768px) and (max-width: 1199px) {
+  .flex-card {
+    width: 25vw;
+    height: 15vh;
+  }
+
+  .flex-card:hover {
+    width:25vw;
+    height: 15vh;
+  }
+
+  .body-item {
+    display:none;
+  }
+
+  /* Desactivamos el efecto hover para movil y tablet y añadimos link directo a la pagina de detail */
+  .flex-card-1:hover {
+    background-image: url("../img/predator-movie1.jpg");
+  }
+
+  .flex-card-2:hover {
+    background-image: url("../img/captain-america-movie2.jpg");
+  }
+
+  .flex-card-3:hover {
+    background-image: url("../img/harry-potter-movie3.jpg");
+  }
+
+  .flex-card-4:hover {
+    background-image: url("../img/lordOfRings-movie4.jpg");
+  }
+
+  .link-mobile {
+    display:block;
+    height: 100%;
+  }
+
+
+
+}
+
+
+@media only screen and (max-width:768px) {
+  .flex-card:hover {
+    width:25vw;
+    height: 13vh;
+  }
+
+  .body-item {
+    display:none;
+  }
+
+  /* Desactivamos el efecto hover para movil y tablet */
+  .flex-card-1:hover {
+    background-image: url("../img/predator-movie1.jpg");
+  }
+
+  .flex-card-2:hover {
+    background-image: url("../img/captain-america-movie2.jpg");
+  }
+
+  .flex-card-3:hover {
+    background-image: url("../img/harry-potter-movie3.jpg");
+  }
+
+  .flex-card-4:hover {
+    background-image: url("../img/lordOfRings-movie4.jpg");
+  }
+
+  .link-mobile {
+    display:block;
+    height: 100%;
+  }
+
+}
+
 /* Moviles en vertical */
 @media only screen and (max-width:480px) {
   .flex-container {
@@ -146,15 +224,21 @@ main {
   }
   .flex-card {
     width: 45vw;
-    height: 15vh;
-    /* margin: 0px; */
+    height: 20vh;
   }
 
-  /* Quitamos el efecto ampliación en la versión movil */
   .flex-card:hover {
-    width: 45vw;
-    height: 15vh;;
+    width:45vw;
+    height: 20vh;
+    
   }
+
+  
+
+
+
+
+
   
 
 }
