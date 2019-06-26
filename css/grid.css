@@ -41,10 +41,6 @@ main {
   }
 
 .flex-container .body-item {
-  /* /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* align-items: center; */
   height: 100%;
   opacity: 0;
   visibility: hidden; 
@@ -95,7 +91,7 @@ main {
 }
 
 .body-item > a {
-  text-decoration-line:none;
+  text-decoration:none;
 }
 
 .body-item > a:link, .body-item > a:visited {
@@ -220,7 +216,7 @@ main {
 @media only screen and (max-width:480px) {
   .flex-container {
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .flex-card {
     width: 45vw;
