@@ -1,5 +1,5 @@
 main {
-   width: 98%;
+   width: 99%;
    margin:auto;
    padding-top:50px;
 }
@@ -181,7 +181,7 @@ main {
 
 }
 
-
+/*Tablet en vertical */
 @media only screen and (max-width:768px) {
   .flex-card:hover {
     width:25vw;
