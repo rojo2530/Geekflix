@@ -135,6 +135,7 @@
         font-size: 1.5em;
         margin: 0;
       }
+      
     
       #burger-checkbox {
         z-index: 3;
@@ -186,6 +187,19 @@
 
     .navbar-list li:last-child, .navbar-list li:nth-last-child(2) {
         display:inherit;
+    }
+
+    .navbar li:last-child {
+        margin-top:50px;
+    }
+
+    .search-textbox-mobile {
+        font-size: 0.6rem;
+        background: transparent;
+        color:white;
+        border-color: white;
+        padding: 0.2rem;
+    
     }
 
     

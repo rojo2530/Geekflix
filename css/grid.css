@@ -65,33 +65,6 @@ main {
 .flex-container .body-item-4 {
   padding-right: 3vw;
 } 
-/* .flex-container .body-item-5 {
-  width: 40vw;
-  text-align: center;
-} */
-
-/* .flex-container .play {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.flex-container .play i {
-  margin-top: 3vw;
-  justify-content: center;
-  width: 6vw;
-  height: 6vw;
-  border-radius: 25vw;
-  background: rgba(0, 0, 0, 0.5);
-  border: 0.1em solid white;
-  padding: 1.4vw;
-  font-size: 2.5vw;
-} */
-/* .flex-container * {
-  background-color: transparent;
-}
-.details-icon {
-  font-size: 2.5vw;
-} */
 
 .flex-card:hover .body-item {
   visibility: visible;
@@ -160,16 +133,17 @@ main {
 @media only screen and (max-width:480px) {
   .flex-container {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .flex-card {
-    width: 40vw;
+    width: 46vw;
     height: 15vh;
+    /* margin: 0px; */
   }
 
   .flex-card:hover {
-    width: 48vw;
-    height: 20vh;
+    width: 46vw;
+    height: 15vh;;
   }
   
 
