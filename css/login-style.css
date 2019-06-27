@@ -36,7 +36,7 @@ h1, .user, .password {
 }
 
 h1 {
-    color:#606060;
+    color:grey;
     font-size: 2rem;
     font-weight: bold;
     margin: 30px auto;
@@ -57,10 +57,10 @@ h1 {
 }
 
 .login {
-    color:white;
+    color:var(--color-text);
     cursor:pointer;
     margin-top:20px;
-    background: rgb(229, 9, 20);
+    background: var(--main-color);
 }
 
 .login:hover {
@@ -83,7 +83,7 @@ h1 {
         width: 60%;
     }
     body {
-        background: black;
+        background: var(--background-color-dark);
     }
     header {
         height: 200px;
@@ -100,7 +100,7 @@ h1 {
         height: 90px;
     }
     body {
-        background: black;
+        background: var(--background-color-dark);
     }
 
     header > img {
