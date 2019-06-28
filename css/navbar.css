@@ -100,8 +100,8 @@
 
 }
 
-/* Moviles en vertical*/
-@media only screen and (max-width:480px) {
+/* Moviles en vertical y horizontal*/
+@media only screen and (max-width:680px) {
     .navbar {
         width: 40%;
       }
